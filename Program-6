@@ -1,0 +1,56 @@
+// Programa: Suma de los N primeros números naturales
+// Alumno: Antunez Partida Jorge Octavio - 21211910
+// Carrera: Ing. Sistemas computacionales
+
+//asciinema: 
+
+Programa en C#
+/*
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int N = 7;   // Número hasta el que se quiere sumar, ejemplo: 7
+        int sum = 0; // Inicializar suma en 0
+        int counter = 1; // Inicializar contador en 1
+
+        // Bucle para sumar los primeros N números naturales
+        while (counter <= N)
+        {
+            sum += counter; // Sumar contador actual a la suma total
+            counter++;      // Incrementar contador
+        }
+
+        // Mostrar el resultado
+        Console.WriteLine("La suma de los primeros " + N + " números naturales es: " + sum);
+    }
+}
+*/
+
+// Programa en Ensamblador
+.global _start
+
+.section .text
+_start:
+    MOV X0, #7     // Suma de los N primeros números naturales, ejemplo: 7
+    MOV X1, #1      // Inicializar contador en 1
+    MOV X2, #0      // Inicializar suma en 0
+
+loop:
+    CMP X1, X0      // Comparar contador con N
+    BGE end         // Si contador > N, terminar
+    
+    ADD X2, X2, X1  // Sumar contador actual a la suma total
+    ADD X1, X1, #1  // Incrementar contador
+    B loop          // Volver al inicio del loop
+
+end:
+    MOV X0, X2      // Mover resultado final a X0 para retorno
+    
+    // Salir del programa
+    MOV X16, #1     // Syscall exit en ARM64 macOS (usar #93 para Linux)
+    SVC #0          // Realizar la llamada al sistema
+
+.section .data
