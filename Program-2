@@ -18,6 +18,8 @@ class Program
     }
 }
 */
+
+// Programa en Ensamblador
     .section .data
 result_str: 
     .asciz "Resultado: 8\n"   // Resultado esperado de 5 + 3 como cadena
