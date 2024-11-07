@@ -43,7 +43,7 @@ _start:
     // Sumar 32
     add x0, x0, #32
     
-    // El resultado en Fahrenheit está ahora en x0
+    // El resultado está ahora en x0
     
     // Salir del programa
     mov x8, #93        // syscall exit
