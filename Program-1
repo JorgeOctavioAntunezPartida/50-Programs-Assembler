@@ -12,7 +12,7 @@ class Program
 {
     static void Main()
     {
-        int celsius = 25;  // Puedes cambiar este valor para probar otros ejemplos
+        int celsius = 25;  // Valor a convertir
 
         // Convertir Celsius a Fahrenheit
         int fahrenheit = (celsius * 9 / 5) + 32;
