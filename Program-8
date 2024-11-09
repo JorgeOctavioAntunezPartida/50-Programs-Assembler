@@ -1,8 +1,8 @@
-// Programa: Suma de los N primeros números naturales
+// Programa: Serie de Fibonacci
 // Alumno: Antunez Partida Jorge Octavio - 21211910
 // Carrera: Ing. Sistemas computacionales
 
-//asciinema: https://asciinema.org/a/1uT2EOe58lbXIzwCzUepRz2bk
+//asciinema: https://asciinema.org/a/DJrqGiPlkk48yaA9Zog80XW9L
 
 Programa en C#
 /*
@@ -12,15 +12,26 @@ class Program
 {
     static void Main()
     {
-        int N = 10; // Ejemplo de entrada: N = 10
-        int suma = SumaPrimerosNumeros(N);
-        Console.WriteLine($"La suma de los primeros {N} números naturales es: {suma}");
+        int N = 10; // Ejemplo de entrada: Número de términos de Fibonacci a calcular
+        FibonacciSerie(N);
     }
 
-    static int SumaPrimerosNumeros(int N)
+    static void FibonacciSerie(int N)
     {
-        // Fórmula: suma = N * (N + 1) / 2
-        return N * (N + 1) / 2;
+        int a = 0, b = 1;
+        
+        Console.WriteLine("Serie de Fibonacci:");
+        Console.Write($"{a} "); // Imprime el primer término
+
+        for (int i = 1; i < N; i++)
+        {
+            Console.Write($"{b} "); // Imprime el siguiente término
+            int temp = a;
+            a = b;
+            b = temp + b; // Calcula el próximo número en la serie
+        }
+        
+        Console.WriteLine(); // Salto de línea final
     }
 }
 */
@@ -31,23 +42,35 @@ class Program
 .global _start
 
 _start:
-    mov x0, #10            // Ejemplo de entrada: N = 10
+    mov x0, #10             // Ejemplo de entrada: Calcular los primeros 10 términos de Fibonacci
+    mov x1, #0              // Primer término de la serie (Fibonacci[0] = 0)
+    mov x2, #1              // Segundo término de la serie (Fibonacci[1] = 1)
 
-    // Cálculo de la suma de los primeros N números naturales
-    // suma = N * (N + 1) / 2
+    // Imprimir el primer término de Fibonacci
+    bl print_number         // Llama a la función para imprimir el valor en x1
 
-    // Incrementa N en 1
-    add x1, x0, #1         // x1 = N + 1
+    // Bucle para calcular la serie de Fibonacci
+fibonacci_loop:
+    cmp x0, #1              // Compara N con 1
+    ble end_fibonacci       // Si N <= 1, salta al final
 
-    // Multiplica N * (N + 1)
-    mul x1, x0, x1         // x1 = N * (N + 1)
+    // Imprimir el siguiente término de Fibonacci
+    mov x3, x1              // Guarda el valor anterior de x1 en x3 (valor temporal)
+    add x1, x1, x2          // Calcula el siguiente término: x1 = x1 + x2
+    mov x2, x3              // Actualiza x2 con el valor anterior de x1
 
-    // Divide el resultado entre 2
-    mov x2, #2             // Coloca 2 en el registro x2
-    udiv x1, x1, x2        // x1 = (N * (N + 1)) / 2
+    // Llama a la función de impresión
+    bl print_number
 
-    // Ahora x1 contiene la suma de los primeros N números naturales
+    sub x0, x0, #1          // Decrementa el contador N
+    b fibonacci_loop        // Repite el bucle
 
-    // Fin del programa (salida)
-    mov x8, #93            // Llamada al sistema para salir (exit)
-    svc #0
+end_fibonacci:
+    // Fin del programa
+    mov x8, #93             // Llamada al sistema para salir (exit)
+    svc #0                  // Llama al sistema operativo
+
+// Función para imprimir un número (simplificación, imprime el valor en x1)
+print_number:
+    // Normalmente aquí iría el código para imprimir en consola
+    ret
