@@ -2,7 +2,7 @@
 // Alumno: Antunez Partida Jorge Octavio - 21211910
 // Carrera: Ing. Sistemas computacionales
 
-//asciinema: lll
+//asciinema: https://asciinema.org/a/Jff1eZoWuuVhXkzhNRAvRqLUc
 
 //Programa en C#
 /*
