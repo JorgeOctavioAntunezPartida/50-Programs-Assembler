@@ -76,7 +76,7 @@ _start:
     add x1, x1, :lo12:buffer
     mov x2, 16                       // Supuesta longitud máxima del número (ajustar si necesario)
     mov x8, 64                       // syscall write
-    svc 0
+    svc 0                            // Salir
 
     // Salir
     mov w8, 93                       // syscall exit
