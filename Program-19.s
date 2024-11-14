@@ -1,4 +1,4 @@
-// Programa: 
+// Programa: Suma de matrices
 // Alumno: Antunez Partida Jorge Octavio - 21211910
 // Carrera: Ing. Sistemas computacionales
 
