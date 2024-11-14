@@ -33,7 +33,7 @@ Asciinemas
 [Program-23](https://asciinema.org/a/5KXYJKEsc0qHcsnmm4ewapr22)
 [Program-24](https://asciinema.org/a/saIhan89BugzFZbMlcieAPa1s)
 [Program-25]
-[Program-26]
+[Program-26](https://asciinema.org/a/XwCszwtd6W4GCgpWUw4kOkiea)
 [Program-27]
 [Program-28]
 [Program-29]
