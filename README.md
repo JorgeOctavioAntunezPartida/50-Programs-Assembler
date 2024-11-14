@@ -17,8 +17,8 @@ Asciinemas
 
 [Program-11](https://asciinema.org/a/xWRBXKJPHXb2Ca03KkrQchAfe)
 [Program-12](https://asciinema.org/a/ZhIhPzq7LVVjuVNb3FxliF1mO)
-[Program-13]
-[Program-14]
+[Program-13](https://asciinema.org/a/SJPoW7rC0i08lUCk8uImf1lXI)
+[Program-14](https://asciinema.org/a/IzJDgZaXNDhlOglyal6NF1LGd)
 [Program-15]
 [Program-16]
 [Program-17]
