@@ -4,7 +4,7 @@
 
 //asciinema: https://asciinema.org/a/i3dew2aMku5EFlE1X5Udt9RtX
 
-Programa en C#
+// Programa en C#
 /*
 using System;
 
