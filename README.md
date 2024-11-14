@@ -32,7 +32,7 @@ Asciinemas
 [Program-22](https://asciinema.org/a/K3fDxv3mvKi3RRmDyAIozSyDc)
 [Program-23](https://asciinema.org/a/5KXYJKEsc0qHcsnmm4ewapr22)
 [Program-24](https://asciinema.org/a/saIhan89BugzFZbMlcieAPa1s)
-[Program-25]
+[Program-25](https://asciinema.org/a/Jff1eZoWuuVhXkzhNRAvRqLUc)
 [Program-26](https://asciinema.org/a/XwCszwtd6W4GCgpWUw4kOkiea)
 [Program-27]
 [Program-28]
