@@ -1,4 +1,4 @@
-// Programa: 	Ordenamiento por selección
+// Programa: Ordenamiento por selección
 // Alumno: Antunez Partida Jorge Octavio - 21211910
 // Carrera: Ing. Sistemas computacionales
 
