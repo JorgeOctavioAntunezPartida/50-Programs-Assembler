@@ -51,3 +51,16 @@ Asciinemas
 [Program-38](https://asciinema.org/a/gZfqpqEN9Zur3evk2m0xByTFT)
 [Program-39](https://asciinema.org/a/Eexy151DXw63WfbZDEYby60OL)
 [Program-40](https://asciinema.org/a/bJFjNkd9tBYbZB9Fy3iOGYMGw)
+
+
+
+[Program-41]
+[Program-42]
+[Program-43]
+[Program-44]
+[Program-45]
+[Program-46]
+[Program-47]
+[Program-48]
+[Program-49]
+[Program-50]
