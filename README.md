@@ -41,13 +41,13 @@ Asciinemas
 
 
 
-[Program-31]
-[Program-32]
-[Program-33]
-[Program-34]
-[Program-35]
-[Program-36]
-[Program-37]
-[Program-38]
-[Program-39]
-[Program-40]
+[Program-31](https://asciinema.org/a/vRt4bNRhFNIjmr3TKZ9s0PVEX)
+[Program-32](https://asciinema.org/a/IaN92rDkImCJrrDmyt1Osp6Ts)
+[Program-33](https://asciinema.org/a/0DBzqh81NuSKbvCZyg1LqrDAy)
+[Program-34](https://asciinema.org/a/t47AAmSuEQeylqIkPoU0aAgyI)
+[Program-35](https://asciinema.org/a/icZPZJehFt02s6MhNTqCCW2gG)
+[Program-36](https://asciinema.org/a/dUw3rMG1Ksx7OdEOGSaCVQGSJ)
+[Program-37](https://asciinema.org/a/ah6IukFpVGl51bFPw48tambw5)
+[Program-38](https://asciinema.org/a/gZfqpqEN9Zur3evk2m0xByTFT)
+[Program-39](https://asciinema.org/a/Eexy151DXw63WfbZDEYby60OL)
+[Program-40](https://asciinema.org/a/bJFjNkd9tBYbZB9Fy3iOGYMGw)
