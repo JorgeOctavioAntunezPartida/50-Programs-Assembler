@@ -54,13 +54,13 @@ Asciinemas
 
 
 
-[Program-41]
-[Program-42]
-[Program-43]
-[Program-44]
-[Program-45]
-[Program-46]
-[Program-47]
-[Program-48]
-[Program-49]
-[Program-50]
+[Program-41](https://asciinema.org/a/VVM2XksA6mehLrxkCypdLfuCD)
+[Program-42](https://asciinema.org/a/Xx4j0ao3YFohtYXpyzABiAJOx)
+[Program-43](https://asciinema.org/a/6n60UHme5f3n35yHsCZA9u6JC)
+[Program-44](https://asciinema.org/a/7n487O9TAk7WhixJBoYFTF0mb)
+[Program-45](https://asciinema.org/a/6Dyy92pp0tGQWfagLfXKB2kJu)
+[Program-46](https://asciinema.org/a/UywKVRV5EidBXlyptKhyb34HV)
+[Program-47](https://asciinema.org/a/0UnY71UwfllYINrT6iXLCpl6p)
+[Program-48](https://asciinema.org/a/h6MTa4ts3NQGcVsHFtbXVo7QM)
+[Program-49](https://asciinema.org/a/wX7N848ovvAyI9Zg05jEJn2Kx)
+[Program-50](https://asciinema.org/a/jZjtUQeO6lppIIlOs6FHmiW59)
